@@ -5,7 +5,7 @@ from collections import OrderedDict
 from itertools import islice
 import itertools
 def get_git_data(org, repo_ctr, comm_ctr):
-    g = Github("c4f2a0ec3e123d531cdf70a52e0c9a711fdad344")
+    g = Github("YOUR_TOKEN_HERE")
     repositories = g.search_repositories(query='org:' + org)
 
     # n=int(input("how many popular repositories do u want to see"))
